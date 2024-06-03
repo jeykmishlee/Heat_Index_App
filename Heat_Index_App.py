@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.models import load_model
-port = int(os.getenv("PORT", 120.7))
+port = int(os.getenv("PORT", 8507))
 st.set_option('server.port', port)
 
 
