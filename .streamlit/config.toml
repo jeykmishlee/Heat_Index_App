@@ -1,6 +1,6 @@
 [server]
 headless = true
-port = 120.7
+port = 8507
 enableCORS = false
 
 [browser]
