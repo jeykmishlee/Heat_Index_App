@@ -1,5 +1,6 @@
 [server]
 headless = true
+port = "https://heatindexapp-cs180-2023-2024.streamlit.app"
 enableCORS = false
 
 [browser]
