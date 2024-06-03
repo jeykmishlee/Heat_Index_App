@@ -5,6 +5,13 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.models import load_model
+import os
+import streamlit as st
+
+# Set the port dynamically with the environment variable
+port = int(os.getenv("PORT", 8501))
+st.set_option('server.port', port)
+
 
 
 @st.cache_resource
